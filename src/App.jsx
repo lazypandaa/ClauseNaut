@@ -8,8 +8,9 @@ function App() {
 
   return (
     <>
-    <h1>Hello worldddd</h1>
-     
+    <div className="app-container">
+      <h1>Hello worldddd</h1>
+    </div>
     </>
   )
 }
