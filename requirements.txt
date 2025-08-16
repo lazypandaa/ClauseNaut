@@ -1,0 +1,9 @@
+gradio
+langchain
+google-generativeai
+langchain_community
+sentence-transformers
+chromadb
+pypdf
+python-docx
+docx2txt
