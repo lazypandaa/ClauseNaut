@@ -203,7 +203,8 @@ with gr.Blocks(theme=gr.themes.Soft()) as demo:
     # State to hold the vector store in memory for the session
     vector_store_state = gr.State()
 
-    gr.Markdown("# 📄 LLM-Powered Document Query System")
+    gr.Markdown("# ClauseNaut")
+    gr.Markdown("LLM-Powered Document Query System")
     gr.Markdown("Upload your policy documents (PDF, DOCX), then ask a question about a claim.")
 
     with gr.Row():
