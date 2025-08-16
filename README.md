@@ -1,4 +1,4 @@
-"ClauseNaut 🚢"
+ClauseNaut 🚢
 An LLM-Powered Document Query System for Intelligent Claim Adjudication
 
 ClauseNaut is a Retrieval-Augmented Generation (RAG) system designed to analyze policy documents and make informed decisions on user claims. It features a user-friendly web interface built with Gradio, allowing users to upload documents (PDFs, DOCX), ask complex questions in natural language, and receive a structured, justified decision in JSON format.
@@ -67,7 +67,7 @@ GOOGLE_API_KEY="YOUR_GEMINI_API_KEY_HERE"
 Alternatively, you can set it as a system environment variable.
 
 5. Run the Application
-Launch the Gradio web server with the following command (assuming your script is named app.py):
+Save the code below as app.py and run it from your terminal.
 
 python app.py
 
@@ -79,7 +79,3 @@ Define Extraction Fields: The Comma-separated fields to extract textbox tells th
 Ask a Question: Enter the user's claim details in the Claim Query box.
 Submit: Click the Submit Query button.
 Review Decision: The final, structured JSON decision will appear in the "Final Decision" box on the right.
-🛠️ Customization
-LLM Model: You can easily switch the Gemini model by changing the model name in the script (e.g., from 'gemini-1.5-flash-latest' to 'gemini-1.5-pro-latest').
-Embedding Model: The embedding model can be changed in the build_knowledge_base function. The current default is sentence-transformers/all-MiniLM-L6-v2.
-Prompts: The core logic is in the prompts! Feel free to modify the prompts in get_structured_query and get_final_decision to change the LLM's behavior or output format.
