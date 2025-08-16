@@ -1,4 +1,4 @@
-ClauseNaut 🚢
+"ClauseNaut 🚢"
 An LLM-Powered Document Query System for Intelligent Claim Adjudication
 
 ClauseNaut is a Retrieval-Augmented Generation (RAG) system designed to analyze policy documents and make informed decisions on user claims. It features a user-friendly web interface built with Gradio, allowing users to upload documents (PDFs, DOCX), ask complex questions in natural language, and receive a structured, justified decision in JSON format.
