@@ -15,6 +15,7 @@ license: mit
 
 ClauseNaut is a **Retrieval-Augmented Generation (RAG)** system designed to analyze policy documents and make informed decisions on user claims.  
 It features a **user-friendly web interface** built with [Gradio](https://www.gradio.app/), allowing users to upload documents (PDFs, DOCX), ask complex questions in natural language, and receive a **structured JSON-based decision** with justifications.
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/18318d09-1365-435b-ab0d-139397c4aab6" />
 
 ---
 
